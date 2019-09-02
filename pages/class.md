@@ -1,7 +1,8 @@
 # Class Time
 
-:abstract: These notes are the backbone of the seminar with exercises and some
-additional material.
+:abstract: These notes are the backbone of the seminar with exercises and
+additional material. You are welcome to take a look and read ahead, 
+but not all information is self-contained or complete.
 
 # Activity 1: What is Knowledge?
 
@@ -158,6 +159,7 @@ lines: 4
 -   You need to think for yourself. Design science is a framework that
     provides you guidelines for how to ask relevant questions, but not
     how to answer them for your specific project.
+    The answer how you should apply to your specific topic is an answer that only you can find.
 
 -   Guidance on methods, experiments, validation and overall scope are
     valuable discussion subjects for you and your supervisor. Talk with

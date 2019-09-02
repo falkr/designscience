@@ -1,16 +1,29 @@
 # Introduction to Design Science 
 
 :Abstract: **Design science is a framework** relevant for research within
-technology, that is, research that tries to create artifacts that solve
+technology. It is about research that aims to create artifacts that solve
 or improve a specific problem in the real world. When you a write a
-thesis within technology, you can most likely benefit from applying or
-at least knowing about design science. **This document is an
-introduction to design science** and intended as preparation material
-for a seminar. The goal is to provide an overview of the most important
-concepts for students that start with their thesis. In this seminar we
-can only provide you with a good start into design science, but there
-are many articles and books on design science that you can refer to
-later once you progress with your thesis.
+thesis within technology, you will most likely benefit from applying or
+at least knowing about design science. **This seminar is an
+introduction to design science**. 
+The goal is to provide an overview of the most important
+concepts for students that start with their thesis, and serve as an introduction for own learning afterwards.
+
+
+## Registration
+
+Time: Monday, Sept. 23rd 2019 14:00 -- 17:00
+
+Place: [Smia](http://bit.ly/2pmijTc)
+
+Since places are limited, please register for the seminar.
+
+---
+type: button
+url: https://forms.office.com/Pages/ResponsePage.aspx?id=cgahCS-CZ0SluluzdZZ8BSxiepoCd7lKk70IThBWqdJUMElaRTdRVjRKMFhVVE9aWEVQTVI2SElZTS4u
+text: "Registration"
+---
+
 
 
 ## Learning Goals of this Seminar
@@ -21,7 +34,9 @@ later once you progress with your thesis.
   - Understand the difference between the scientific process for natural sciences and the differences to design science, and be able to explain this difference to others.
   - Distinguish between knowledge questions and design problems, and identify them in daily work.
   - Recite all tasks part of the design cycle to create new artifacts.
-  - With respect to your thesis, these skills will enable you to:
+
+With respect to your thesis, these skills will enable you to:
+
   - Write a better problem statement for your thesis.
   - Write a better research plan for your thesis.
   - Understand the difference between what you do in your thesis and what you write about, and what the contribution of your thesis is.

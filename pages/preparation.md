@@ -1,35 +1,45 @@
 # Peparation
 
-This preparation contains **tasks**. To get the full benefit of the
+The following is an introduction into the concepts of design science.
+This implies that you need to learn the definitions of some
+terms. Focus in this part on remembering them and understanding what the
+terms mean and how they are distinct. We will go through a series of
+activities to further learn how to use these terms and apply them to
+your own thesis.
+
+:task: This preparation contains **tasks**. To get the full benefit of the
 seminar, you need to fill out the tasks while you read, either on a
 printout of this document or on a separate paper. It is not important
 that you answer the tasks correctly, but that you write down your
 thoughts when the task is given, so you can reflect about how your
 thinking changes over time.
 
-This preparation also contains **guidelines** when applying design
+:guideline: This preparation also contains **guidelines** when applying design
 science in your thesis. We will discuss them in the seminar. They are
 included already now so you see what will be important.
 
 :aside: Please feel free to send questions via [email](mailto:kraemer@ntnu.no) also during this preparation phase.
 
+
 # Motivation
 
-Before we begin, two explanations that may answer the two most likely
-thoughts you will have now:
+Before we begin, there may be two things on your mind right now:
 
--   You may react to the word *design*. Why is it *design* science?
+-   **You may react to the word *design*.** Why is it *design* science?
     Could there be a *technology* science? Or *engineering* science?
+
     Don't worry too much about the term *design*. We can for now think
     that it covers the fact that we need a scientific approach to
     something that is *designed* by humans, and by this we understand
     anything artificial, including algorithms, electronics, programs, or
     systems.
 
--   During this introduction you may think that someone wants to make
-    life complicated for you by introducing a lot of new terms. We will
+-   **You may feel that design science is complicated,** since we need to introduce
+    some new terms, or use familiar terms in a slightly different way. We will
     talk about "treatments" and emphasize the difference between
-    "validation" and "evaluation." Be assured, however, that this will
+    "validation" and "evaluation." 
+    
+    Be assured, however, that this will
     make your thesis *easier* for you. We give you the words and a
     scaffolding for thinking about your thesis.
 
@@ -37,11 +47,10 @@ thoughts you will have now:
 
 We often hear the formulation _"I am writing my master thesis."_ This
 shows the focus on the tangible product of the thesis, which is the
-thesis report. That's understandable, given that students receive the
-grades for their thesis based on the report. But focussing primarily on
+thesis report. Given that your final grade is based on the report, 
+this is understanable. But focussing primarily on
 the report is also limiting and doesn't help to understand what you need
-to do. There are some other, equally critical concepts involved,
-illustrated in the figure below.
+to actually do. 
 
 ---
 type: figure
@@ -50,35 +59,41 @@ caption: "Difference between what you do, what you find out, and what you write.
 ---
 
 The actual **result** of a thesis is **knowledge**, and that implies
-*new* knowledge. The **report** only captures these results, that means,
+**new** knowledge, and idealy knowledge that turns out to be **useful**.
+The **report** only captures these results, that means,
 presents the new knowledge. In addition, the report documents the
 process how the results were acquired so that they are reproducible. How
 do you get these results, this new knowledge? You do this by the actual
 **work** that goes into the thesis. (Writing the report also constitutes
 "work," but of a different kind we mean here.)
 
+:aside: *Optinal:* Having a deep understanding of the concept of *knowledge* helps when you need to decide what you have to do to acquire it. 
+[We collected a few videos](knowledge.html) that approach knowledge in different ways. 
+
+
 What this work is really depends on the nature of your discipline and
 subject. Sometimes, knowledge is produced mainly through reading and
 thinking. Sometimes, knowledge is produced by observation and
 experiments. Sometimes, knowledge is produced by creating technology
-artifacts and validating them.
+artifacts and validating them. Deciding what to do is part of your work. 
 
 Simply being aware of the distinction between these three concepts can
 already help you to understand better what to do. Design science helps
 you with reflecting what knowledge is and how to acquire it, planning
-your work and making your report more explicit, helps you to plan and
+your work and making your report more explicit. It helps you to plan and
 perform the necessary work to produce new knowledge within engineering
 disciplines.
 
-:task: Sometimes, students think *"I have used too much time on these
+:task: A student thinks *"I have used a lot of time on these
 measurements, they should thus also make up a considerable portion of
-the pages of my report."* In the light of the division of work --
-results -- report, what do you think about this statement?
+the pages of my report."* --- What do you think about this statement?
+
 
 ---
 type: lines
 lines: 4
 ---
+
 
 ## Why is it good to have a method?
 
@@ -130,16 +145,7 @@ and makes the following things easier:
     or at least not running blindly into walls.
 
 
-# Design Science
-
-The following is an introduction into the concepts of design science.
-Naturally, this implies that you need to learn the definitions of some
-terms. Focus in this part on remembering them and understanding what the
-terms mean and how they are distinct. We will go through a series of
-activities to further learn how to use these terms and apply them to
-your own thesis.
-
-## Natural Science vs. Design Science
+# Natural Science vs. Design Science
 
 You are probably aware of the general scientific method, which consists
 of a systematic sequence of steps, namely observation, measurement, and
@@ -164,14 +170,13 @@ It turns out, that when we naïvely apply the scientific method of
 natural sciences to technology, the result is not a very good fit. It's
 like going hiking in jeans. They are technically pants but awful for
 that purpose. You get the idea.
-
 The method for the natural sciences is not a good fit because there are
 more differences between natural sciences and technology:
 
 -   The natural sciences intend to gather new knowledge about the world
     **without changing it.** When we develop new technology and do the
     research for that, we do so with the ambition to change the
-    world.[^2]
+    world.
 
 -   Natural sciences are driven by knowledge questions, that means,
     finding answers to questions. Technology, on the other hand, is
@@ -181,7 +186,7 @@ more differences between natural sciences and technology:
 But wait: Say we want to create a new, more effective antenna. Don't we
 have to make experiments that explore, for instance, how
 electro-magnetic waves propagate? Isn't that a classical problem of the
-natural sciences, in this case physics? The answer is yes. Design
+natural sciences, in this case physics? The answer is _yes_. Design
 science is not an alternative to natural sciences. We will later see
 that design science has access to all methods of natural sciences when
 answering knowledge questions.
@@ -213,9 +218,10 @@ interaction with its context solves a certain problem. But what exactly
 are artifact and context?
 
 **Artifact:** An artifact can be anything designed and created by
-humans, both as a real, physical object or an abstract concept. Example
+humans, both as a real, physical object or an abstract concept. Examples
 for artifacts are:
 
+:double:
 -   Software
 -   Hardware
 -   Organizations
@@ -225,15 +231,18 @@ for artifacts are:
 -   Techniques
 -   Conceptual Structures
 
+
 **Context:** The problem context for the artifact can be anything that
 interacts with the artifact or that has influence on it. Typically the
 problem context for an artifact is not a single context, but consists of
 elements like the following:
 
+:double:
 -   People
 -   Values, Desires, Fears
 -   Goals, Norms, Budgets
 -   other artifacts, as the ones named above.
+
 
 The context for one artifact can also be another artifact, for instance
 when a system interacts with another system, but only one of them is
@@ -272,7 +281,8 @@ type: lines
 lines: 4
 ---
 
-## Knowledge Questions vs. Design Problems
+
+# Knowledge Questions vs. Design Problems
 
 The core of design science is a separation of two different kind of
 research problems: **design problems** and **knowledge questions**.
@@ -416,12 +426,16 @@ The process is iterative, starting with the problem investigation.
 These steps form a cycle, since the validation may reveal more knowledge
 about artifact and context, which motivates another round.
 
-# Evaluation or Validation
+# Evaluation and Validation
 
 By now it should be obvious that it is not enough to just come up with
 an artifact, but that it is necessary that we find out and demonstrate
 how effective this artifact is in solving the problem we designed it
-for. If it doesn't solve the problem, it's useless.[^3]
+for. If an atifact doesn't solve the problem, it's useless.
+
+Finding out that the artifact does not work as intended does not
+mean you get a bad grade in the thesis. Understanding why something
+does not work can also be valuable knowledge, that is helpful to create another artifact.
 
 Let's first talk about what we call **evaluation**:
 
@@ -493,7 +507,8 @@ some other properties of the algorithm that should be validated without
 any written code? This is why it is so important to think about the
 validation before any effort is spent on creating artifacts.
 
-## That's it for now.
+
+# That's it for now.
 
 We have now discussed some of the most important elements in design
 science. Don't worry if you feel a bit confused and have troubles
@@ -504,7 +519,7 @@ in some exercises so that you can use them for your thesis.
 See you in the seminar.
 
 
-# Further Reading
+## Optional Further Reading
 
 What you read now is sufficient for the seminar. After that, you should
 continue reading on design science depending on which parts you need to
@@ -514,13 +529,8 @@ Systems and Software Engineering*. You can access this book as PDF from
 within the campus network, and we also made it available for you on
 Blackboard.
 
+:aside: <a href="https://doi.org/10.1007/978-3-662-43839-8"><img width="100px" src="figures/wieringa-book.jpg"/></a><br/>[Access on SpringerLink](https://doi.org/10.1007/978-3-662-43839-8) (from campus network)
+
+
 In your thesis, you should **not** refer to this seminar when writing about your method. Instead, refer to published literature about design science, and make sure to refer to the specific choices you made for your thesis. 
 
-
-[^2]: A colleague reacted on the formulation "changing the world." This
-    really sounds pretentious, but technology works that way. It changes
-    the world it is introduced into.
-
-[^3]: Finding out that the artifact does not work as intended does not
-    mean you get a bad grade in the thesis. Understanding why something
-    does not work can also be valuable knowledge.

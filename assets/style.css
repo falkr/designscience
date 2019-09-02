@@ -20,6 +20,17 @@ th {
   text-align: left;
 }
 
+#toc {
+position: -webkit-sticky;
+position: sticky;
+top: 20px;
+z-index: 1020;
+padding: 20px 10px;
+width: 200px;
+float: left;
+}
+
+}
 
 li p {
   margin: 0;
@@ -234,7 +245,10 @@ div.definition p::before {
 }
 
 div.guideline p {
-  background-color: #d9eaf2; padding: 4px;
+  padding: 10px;
+  background-color: #fae7e8;
+  border-radius: 5px;
+  border-left: 6px solid #e45460
 }
 
 div.guideline p::before { 
@@ -244,7 +258,10 @@ div.guideline p::before {
 }
 
 div.task p {
-  background-color: #d9eaf2; xpadding: 2px 4px 2px 4px;
+  padding: 10px;
+  background-color: #ffd9ab;
+  border-radius: 5px;
+  border-left: 6px solid #fc8c03 
 }
 
 div.task p::before { 
@@ -377,3 +394,9 @@ code span.st { color: MEDIUMSLATEBLUE; } /* String */
 code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+
+
+
+.double {
+  column-count: 2;
+}

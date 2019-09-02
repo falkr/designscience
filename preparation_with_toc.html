@@ -19,6 +19,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
@@ -27,7 +32,7 @@
 <!--<script src="jquery-1.10.1.min.js"></script>-->
 <script src="assets/script-aside.js"></script>
 </head>
-<body id="top">
+<body id="top" data-spy="scroll" data-target="#toc">
 
 <nav class="navbar navbar-expand-md navbar-dark " style="background-color:#666666"#2B65EC"> <!-- fixed-top -->
 	<ul class="nav nav-pills">
@@ -58,31 +63,27 @@
     </a>
 </nav>
 
+<nav id="toc" data-toggle="toc"></nav>
 
 <div class="page">
     </section>
     <section class="content">
 <h1 id="peparation">Peparation</h1>
-<p>The following is an introduction into the concepts of design science. This implies that you need to learn the definitions of some terms. Focus in this part on remembering them and understanding what the terms mean and how they are distinct. We will go through a series of activities to further learn how to use these terms and apply them to your own thesis.</p>
+<p>This preparation contains <strong>tasks</strong>. To get the full benefit of the seminar, you need to fill out the tasks while you read, either on a printout of this document or on a separate paper. It is not important that you answer the tasks correctly, but that you write down your thoughts when the task is given, so you can reflect about how your thinking changes over time.</p>
+<p>This preparation also contains <strong>guidelines</strong> when applying design science in your thesis. We will discuss them in the seminar. They are included already now so you see what will be important.</p>
 
-<div class="task"><p>This preparation contains <strong>tasks</strong>. To get the full benefit of the seminar, you need to fill out the tasks while you read, either on a printout of this document or on a separate paper. It is not important that you answer the tasks correctly, but that you write down your thoughts when the task is given, so you can reflect about how your thinking changes over time.</p>
-</div>
-<div class="guideline"><p>This preparation also contains <strong>guidelines</strong> when applying design science in your thesis. We will discuss them in the seminar. They are included already now so you see what will be important.</p>
-</div>
 <span name="bfae87"></span><aside name="bfae87"><p>Please feel free to send questions via <a href="mailto:kraemer@ntnu.no">email</a> also during this preparation phase.</p>
 </aside>
     </section>
     <section class="content">
 <h1 id="motivation">Motivation</h1>
-<p>Before we begin, there may be two things on your mind right now:</p>
+<p>Before we begin, two explanations that may answer the two most likely thoughts you will have now:</p>
 <ul>
-<li><p><strong>You may react to the word <em>design</em>.</strong> Why is it <em>design</em> science? Could there be a <em>technology</em> science? Or <em>engineering</em> science?</p>
-<p>Don’t worry too much about the term <em>design</em>. We can for now think that it covers the fact that we need a scientific approach to something that is <em>designed</em> by humans, and by this we understand anything artificial, including algorithms, electronics, programs, or systems.</p></li>
-<li><p><strong>You may feel that design science is complicated,</strong> since we need to introduce some new terms, or use familiar terms in a slightly different way. We will talk about “treatments” and emphasize the difference between “validation” and “evaluation.”</p>
-<p>Be assured, however, that this will make your thesis <em>easier</em> for you. We give you the words and a scaffolding for thinking about your thesis.</p></li>
+<li><p>You may react to the word <em>design</em>. Why is it <em>design</em> science? Could there be a <em>technology</em> science? Or <em>engineering</em> science? Don’t worry too much about the term <em>design</em>. We can for now think that it covers the fact that we need a scientific approach to something that is <em>designed</em> by humans, and by this we understand anything artificial, including algorithms, electronics, programs, or systems.</p></li>
+<li><p>During this introduction you may think that someone wants to make life complicated for you by introducing a lot of new terms. We will talk about “treatments” and emphasize the difference between “validation” and “evaluation.” Be assured, however, that this will make your thesis <em>easier</em> for you. We give you the words and a scaffolding for thinking about your thesis.</p></li>
 </ul>
 <h2 id="the-difference-between-what-you-do-what-you-find-out-and-what-you-write">The Difference Between What You Do, What You Find Out, and What You Write</h2>
-<p>We often hear the formulation <em>“I am writing my master thesis.”</em> This shows the focus on the tangible product of the thesis, which is the thesis report. Given that your final grade is based on the report, this is understanable. But focussing primarily on the report is also limiting and doesn’t help to understand what you need to actually do.</p>
+<p>We often hear the formulation <em>“I am writing my master thesis.”</em> This shows the focus on the tangible product of the thesis, which is the thesis report. That’s understandable, given that students receive the grades for their thesis based on the report. But focussing primarily on the report is also limiting and doesn’t help to understand what you need to do. There are some other, equally critical concepts involved, illustrated in the figure below.</p>
 
 <div class="figure">
 <img src="figures/triangle.svg" alt="Difference between what you do, what you find out, and what you write." width="100%"/>
@@ -90,14 +91,11 @@
 <aside name="figures/triangle.svg"><p><p>Difference between what you do, what you find out, and what you write.</p>
 </p></aside>
 </div>
-<p>The actual <strong>result</strong> of a thesis is <strong>knowledge</strong>, and that implies <strong>new</strong> knowledge, and idealy knowledge that turns out to be <strong>useful</strong>. The <strong>report</strong> only captures these results, that means, presents the new knowledge. In addition, the report documents the process how the results were acquired so that they are reproducible. How do you get these results, this new knowledge? You do this by the actual <strong>work</strong> that goes into the thesis. (Writing the report also constitutes “work,” but of a different kind we mean here.)</p>
+<p>The actual <strong>result</strong> of a thesis is <strong>knowledge</strong>, and that implies <em>new</em> knowledge. The <strong>report</strong> only captures these results, that means, presents the new knowledge. In addition, the report documents the process how the results were acquired so that they are reproducible. How do you get these results, this new knowledge? You do this by the actual <strong>work</strong> that goes into the thesis. (Writing the report also constitutes “work,” but of a different kind we mean here.)</p>
+<p>What this work is really depends on the nature of your discipline and subject. Sometimes, knowledge is produced mainly through reading and thinking. Sometimes, knowledge is produced by observation and experiments. Sometimes, knowledge is produced by creating technology artifacts and validating them.</p>
+<p>Simply being aware of the distinction between these three concepts can already help you to understand better what to do. Design science helps you with reflecting what knowledge is and how to acquire it, planning your work and making your report more explicit, helps you to plan and perform the necessary work to produce new knowledge within engineering disciplines.</p>
 
-<span name="27e2f6"></span><aside name="27e2f6"><p><em>Optinal:</em> Having a deep understanding of the concept of <em>knowledge</em> helps when you need to decide what you have to do to acquire it. <a href="knowledge.html">We collected a few videos</a> that approach knowledge in different ways.</p>
-</aside>
-<p>What this work is really depends on the nature of your discipline and subject. Sometimes, knowledge is produced mainly through reading and thinking. Sometimes, knowledge is produced by observation and experiments. Sometimes, knowledge is produced by creating technology artifacts and validating them. Deciding what to do is part of your work.</p>
-<p>Simply being aware of the distinction between these three concepts can already help you to understand better what to do. Design science helps you with reflecting what knowledge is and how to acquire it, planning your work and making your report more explicit. It helps you to plan and perform the necessary work to produce new knowledge within engineering disciplines.</p>
-
-<div class="task"><p>A student thinks <em>“I have used a lot of time on these measurements, they should thus also make up a considerable portion of the pages of my report.”</em> — What do you think about this statement?</p>
+<div class="task"><p>Sometimes, students think <em>“I have used too much time on these measurements, they should thus also make up a considerable portion of the pages of my report.”</em> In the light of the division of work – results – report, what do you think about this statement?</p>
 </div>
 <hr class="lines"/>
 <hr class="lines"/>
@@ -115,21 +113,24 @@
 
     </section>
     <section class="content">
-<h1 id="natural-science-vs.-design-science">Natural Science vs. Design Science</h1>
+<h1 id="design-science">Design Science</h1>
+<p>The following is an introduction into the concepts of design science. Naturally, this implies that you need to learn the definitions of some terms. Focus in this part on remembering them and understanding what the terms mean and how they are distinct. We will go through a series of activities to further learn how to use these terms and apply them to your own thesis.</p>
+<h2 id="natural-science-vs.-design-science">Natural Science vs. Design Science</h2>
 <p>You are probably aware of the general scientific method, which consists of a systematic sequence of steps, namely observation, measurement, and experiment, and the formulation, testing, and modification of hypotheses. This method is used in the natural sciences, which deals with explaining natural phenomena.</p>
 
-<span name="bd4ce8"></span><aside name="bd4ce8">
+<span name="252700"></span><aside name="252700">
 <a href="https://youtu.be/xG3-_tgDE0k"><img width="240" src="https://img.youtube.com/vi/xG3-_tgDE0k/sddefault.jpg"></img></a>
 <p>If you are interested, have a look at this video from Sixty Symbols about the scientific method.</p>
 
 </aside>
 <p>Isn’t it possible to apply this general scientific method also to technology? Instead of phenomena created by nature, we try to understand phenomena created by humans, that means, we try to understand technology? Do we need another framework?</p>
-<p>It turns out, that when we naïvely apply the scientific method of natural sciences to technology, the result is not a very good fit. It’s like going hiking in jeans. They are technically pants but awful for that purpose. You get the idea. The method for the natural sciences is not a good fit because there are more differences between natural sciences and technology:</p>
+<p>It turns out, that when we naïvely apply the scientific method of natural sciences to technology, the result is not a very good fit. It’s like going hiking in jeans. They are technically pants but awful for that purpose. You get the idea.</p>
+<p>The method for the natural sciences is not a good fit because there are more differences between natural sciences and technology:</p>
 <ul>
-<li><p>The natural sciences intend to gather new knowledge about the world <strong>without changing it.</strong> When we develop new technology and do the research for that, we do so with the ambition to change the world.</p></li>
+<li><p>The natural sciences intend to gather new knowledge about the world <strong>without changing it.</strong> When we develop new technology and do the research for that, we do so with the ambition to change the world.[^2]</p></li>
 <li><p>Natural sciences are driven by knowledge questions, that means, finding answers to questions. Technology, on the other hand, is driven by the intention to solve or mitigate a problem, which is in turn driven by stakeholders, or people wanting to solve a problem.</p></li>
 </ul>
-<p>But wait: Say we want to create a new, more effective antenna. Don’t we have to make experiments that explore, for instance, how electro-magnetic waves propagate? Isn’t that a classical problem of the natural sciences, in this case physics? The answer is <em>yes</em>. Design science is not an alternative to natural sciences. We will later see that design science has access to all methods of natural sciences when answering knowledge questions.</p>
+<p>But wait: Say we want to create a new, more effective antenna. Don’t we have to make experiments that explore, for instance, how electro-magnetic waves propagate? Isn’t that a classical problem of the natural sciences, in this case physics? The answer is yes. Design science is not an alternative to natural sciences. We will later see that design science has access to all methods of natural sciences when answering knowledge questions.</p>
 <p>The differences between natural science and technology make it hard to simply apply the general scientific method to a research project dealing with technology. We often observe that technology researchers formulate research questions to make their method appear “more scientific.” But this has often the opposite effect and rather makes the method more elusive. Therefore, design science takes these two differences into account, and applies scientific reasoning in the presence of technology artifacts and the intention to change the world.</p>
 
 <div class="task"><p>Without reading any further, take your current thesis topic and think of it in the framework of natural sciences. Can you write down a question that characterizes the knowledge you would like to gain?</p>
@@ -140,7 +141,7 @@
 <hr class="lines"/>
 <h2 id="artifacts-in-context">Artifacts in Context</h2>
 <p>Design science is the design and investigation of artifacts in context <span class="citation" data-cites="Wieringa:2014">[@Wieringa:2014]</span>. Design science problems are <em>improvement problems</em> <span class="citation" data-cites="Wieringa:2014">[@Wieringa:2014]</span>. The aim is that the designed artifact in interaction with its context solves a certain problem. But what exactly are artifact and context?</p>
-<p><strong>Artifact:</strong> An artifact can be anything designed and created by humans, both as a real, physical object or an abstract concept. Examples for artifacts are:</p>
+<p><strong>Artifact:</strong> An artifact can be anything designed and created by humans, both as a real, physical object or an abstract concept. Example for artifacts are:</p>
 
 <div class="double"><ul>
 <li>Software</li>
@@ -177,9 +178,7 @@
 <hr class="lines"/>
 <hr class="lines"/>
 <hr class="lines"/>
-    </section>
-    <section class="content">
-<h1 id="knowledge-questions-vs.-design-problems">Knowledge Questions vs. Design Problems</h1>
+<h2 id="knowledge-questions-vs.-design-problems">Knowledge Questions vs. Design Problems</h2>
 <p>The core of design science is a separation of two different kind of research problems: <strong>design problems</strong> and <strong>knowledge questions</strong>. These correspond to the two different parts of design science, which are <strong>design</strong> and <strong>investigation</strong>. In principle, anything we do in design science belongs to either one of these activities. Before we argue <em>why</em> this distinction is useful, let us first distinguish these two research problems from each other.</p>
 <p><strong>Example for a Design Problem:</strong> Design an algorithm that recognizes human activity based on accelerometer data from a wristband.</p>
 <p><strong>Example for a Knowledge Question:</strong> Is it feasible for patients in a specific age group to wear a wristband?</p>
@@ -230,7 +229,7 @@ Evaluated by truth.
 </tbody>
 </table>
 
-<span name="f2b97c"></span><aside name="f2b97c"><p>Difference between design problems and knowledge questions. Adapted from <span class="citation" data-cites="Wieringa:2014"><span class="citation" data-cites="Wieringa:2014">[@Wieringa:2014]</span></span></p>
+<span name="4892f9"></span><aside name="4892f9"><p>Difference between design problems and knowledge questions. Adapted from <span class="citation" data-cites="Wieringa:2014"><span class="citation" data-cites="Wieringa:2014">[@Wieringa:2014]</span></span></p>
 </aside>
 <p>Often, students (and supervisors) are not aware of the distinction and approach a design problem as a knowledge question. Then, instead of writing:</p>
 <blockquote>
@@ -285,9 +284,8 @@ Evaluated by truth.
 
     </section>
     <section class="content">
-<h1 id="evaluation-and-validation">Evaluation and Validation</h1>
-<p>By now it should be obvious that it is not enough to just come up with an artifact, but that it is necessary that we find out and demonstrate how effective this artifact is in solving the problem we designed it for. If an atifact doesn’t solve the problem, it’s useless.</p>
-<p>Finding out that the artifact does not work as intended does not mean you get a bad grade in the thesis. Understanding why something does not work can also be valuable knowledge, that is helpful to create another artifact.</p>
+<h1 id="evaluation-or-validation">Evaluation or Validation</h1>
+<p>By now it should be obvious that it is not enough to just come up with an artifact, but that it is necessary that we find out and demonstrate how effective this artifact is in solving the problem we designed it for. If it doesn’t solve the problem, it’s useless.[^3]</p>
 <p>Let’s first talk about what we call <strong>evaluation</strong>:</p>
 
 <div class="definition"><p><strong>Evaluation</strong> is the investigation of a treatment as applied by stakeholders in the field.</p>
@@ -309,19 +307,17 @@ Evaluated by truth.
 <div class="guideline"><p>Think early in the process about how to validate artifacts, that means at least before you design the artifact itself.</p>
 </div>
 <p><strong>Missing Validations:</strong> Some students (and supervisors) ignore the validation part, and rush too quickly towards designing the artifact. In some cases this may be because the actual validation is implied by the habits in the discipline, but sometimes it is an oversight or neglect. You certainly don’t want to come into the situation that you have created one or more artifacts and then don’t know how to validate them. This is tragic for the thesis report, since the validation part is usually the one that is easier to write about (if the validation exists) than the actual implementation. Imagine in the example above that a student spent a lot of time to implement the algorithm as a bunch of code. Code can of course be tested, or you may measure its execution time. In some cases, this may even be relevant for a validation, but what with cases where the execution time for the code is not relevant at all? Maybe writing the code wasn’t the problem in the first place, but some other properties of the algorithm that should be validated without any written code? This is why it is so important to think about the validation before any effort is spent on creating artifacts.</p>
-
-    </section>
-    <section class="content">
-<h1 id="thats-it-for-now.">That’s it for now.</h1>
+<h2 id="thats-it-for-now.">That’s it for now.</h2>
 <p>We have now discussed some of the most important elements in design science. Don’t worry if you feel a bit confused and have troubles distinguishing the terms from each other. Go back and read the text again until you remember the main concepts. We will apply the concepts in some exercises so that you can use them for your thesis.</p>
 <p>See you in the seminar.</p>
 
-<h2 id="optional-further-reading">Optional Further Reading</h2>
+    </section>
+    <section class="content">
+<h1 id="further-reading">Further Reading</h1>
 <p>What you read now is sufficient for the seminar. After that, you should continue reading on design science depending on which parts you need to elaborate further. Much of this introduction you just read is based on the book of Roel Wieringa, <em>Design Science Methodology for Information Systems and Software Engineering</em>. You can access this book as PDF from within the campus network, and we also made it available for you on Blackboard.</p>
-
-<span name="7dc7f7"></span><aside name="7dc7f7"><p><a href="https://doi.org/10.1007/978-3-662-43839-8"><img width="100px" src="figures/wieringa-book.jpg"/></a><br/><a href="https://doi.org/10.1007/978-3-662-43839-8">Access on SpringerLink</a> (from campus network)</p>
-</aside>
 <p>In your thesis, you should <strong>not</strong> refer to this seminar when writing about your method. Instead, refer to published literature about design science, and make sure to refer to the specific choices you made for your thesis.</p>
+
+
 
     </section>
 </div>
