@@ -235,7 +235,10 @@ div.factbox {
 }
 
 div.definition p {
-    background-color: #d9eaf2; padding: 4px;
+    padding: 10px;
+    background-color: #d9eaf2;
+    border-radius: 5px;
+    border-left: 6px solid #1481b8
 }
 
 div.definition p::before { 
@@ -271,7 +274,10 @@ div.task p::before {
 }
 
 div.tip p {
-  background-color: #d9eaf2; padding: 4px;
+  padding: 10px;
+  background-color: #d9eaf2;
+  border-radius: 5px;
+  border-left: 6px solid #1481b8
 }
 
 div.abstract {
