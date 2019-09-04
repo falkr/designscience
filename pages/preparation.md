@@ -23,13 +23,12 @@ included already now so you see what will be important.
 
 # Motivation
 
-Before we begin, there may be two things on your mind right now:
+Before we begin, there may be two things on your mind:
 
 -   **You may react to the word *design*.** Why is it *design* science?
     Could there be a *technology* science? Or *engineering* science?
 
-    Don't worry too much about the term *design*. We can for now think
-    that it covers the fact that we need a scientific approach to
+    Don't worry too much about the term *design*. It just covers the fact that we need a scientific approach to
     something that is *designed* by humans, and by this we understand
     anything artificial, including algorithms, electronics, programs, or
     systems.
@@ -46,7 +45,7 @@ Before we begin, there may be two things on your mind right now:
 ## The Difference Between What You Do, What You Find Out, and What You Write
 
 We often hear the formulation _"I am writing my master thesis."_ This
-shows the focus on the tangible product of the thesis, which is the
+emphasizes the focus on the tangible product of the thesis, which is the
 thesis report. Given that your final grade is based on the report, 
 this is understanable. But focussing primarily on
 the report is also limiting and doesn't help to understand what you need
@@ -68,10 +67,10 @@ do you get these results, this new knowledge? You do this by the actual
 "work," but of a different kind we mean here.)
 
 :aside: *Optinal:* Having a deep understanding of the concept of *knowledge* helps when you need to decide what you have to do to acquire it. 
-[We collected a few videos](knowledge.html) that approach knowledge in different ways. 
+[We collected a few videos](knowledge.html) that approach knowledge in various ways. 
 
 
-What this work is really depends on the nature of your discipline and
+What this work is, really depends on the nature of your discipline and
 subject. Sometimes, knowledge is produced mainly through reading and
 thinking. Sometimes, knowledge is produced by observation and
 experiments. Sometimes, knowledge is produced by creating technology
@@ -170,8 +169,8 @@ It turns out, that when we naïvely apply the scientific method of
 natural sciences to technology, the result is not a very good fit. It's
 like going hiking in jeans. They are technically pants but awful for
 that purpose. You get the idea.
-The method for the natural sciences is not a good fit because there are
-more differences between natural sciences and technology:
+The method for the natural sciences is not a good fit for technology projects 
+because there are two main differences between natural sciences and technology:
 
 -   The natural sciences intend to gather new knowledge about the world
     **without changing it.** When we develop new technology and do the
@@ -180,25 +179,19 @@ more differences between natural sciences and technology:
 
 -   Natural sciences are driven by knowledge questions, that means,
     finding answers to questions. Technology, on the other hand, is
-    driven by the intention to solve or mitigate a problem, which is in
-    turn driven by stakeholders, or people wanting to solve a problem.
+    driven by the intention to **solve or mitigate a problem**, which is driven by stakeholders, or people wanting to solve a problem.
 
-But wait: Say we want to create a new, more effective antenna. Don't we
+But wait: _Say we want to create a new, more effective antenna. Don't we
 have to make experiments that explore, for instance, how
 electro-magnetic waves propagate? Isn't that a classical problem of the
-natural sciences, in this case physics? The answer is _yes_. Design
-science is not an alternative to natural sciences. We will later see
-that design science has access to all methods of natural sciences when
-answering knowledge questions.
+natural sciences, in this case physics?_ --- The answer is **yes**. Design
+science is not an alternative to the natural sciences. 
+Design science has access to all methods of natural sciences when
+answering so-called _knowledge questions_. More on that later.
 
-The differences between natural science and technology make it hard to
+So, the differences between natural science and technology make it hard to
 simply apply the general scientific method to a research project dealing
-with technology. We often observe that technology researchers formulate
-research questions to make their method appear "more scientific." But
-this has often the opposite effect and rather makes the method more
-elusive. Therefore, design science takes these two differences into
-account, and applies scientific reasoning in the presence of technology
-artifacts and the intention to change the world.
+with technology. 
 
 :task: Without reading any further, take your current thesis topic
 and think of it in the framework of natural sciences. Can you write down
@@ -209,13 +202,28 @@ type: lines
 lines: 4
 ---
 
+We come back to this question later. Most likely, you have formulated a question in a way that does not really help you in the process further.
+Design science helps you to ask **better questions**. 
+
+<!--
+Nevertheless, you can observe that technology researchers formulate
+research questions to make their method appear "more scientific." But
+this has often the opposite effect and rather makes the method more
+elusive. Therefore, design science takes these two differences into
+account, and applies scientific reasoning in the presence of technology
+artifacts and the intention to change the world.
+-->
+
 ## Artifacts in Context
 
-Design science is the design and investigation of artifacts in
-context [@Wieringa:2014]. Design science problems are *improvement
-problems* [@Wieringa:2014]. The aim is that the designed artifact in
-interaction with its context solves a certain problem. But what exactly
-are artifact and context?
+Design science is **the design and investigation of artifacts in
+context** (Wieringa 2014). Further, design science problems are **improvement
+problems**. The aim is that the designed artifact in
+interaction with its context solves a certain problem. 
+This is in a stark contrast to the natural sciences, that "only" want to gain new knowledge about the world. 
+(Don't misunderstand the "only", this is not saying that natural sciences are somehow less useful.)
+
+But what exactly are **artifact** and **context**?
 
 **Artifact:** An artifact can be anything designed and created by
 humans, both as a real, physical object or an abstract concept. Examples
@@ -250,7 +258,7 @@ under research.
 
 You may ask why it makes a difference to emphasize that research within
 technology is not only about technology itself (i.e., the artifact), but
-about the *artifact in context*. This distinction is helpful when you
+about the **artifact in context**. This distinction is helpful when you
 think of what you should do in your thesis and how you should evaluate
 it:
 
@@ -259,7 +267,7 @@ it:
     result of your thesis. Instead, your thesis is about how an artifact
     solves a specific problem (in a problem context), and through a
     validation you demonstrate if or how effectively it solves that
-    problem. An implementation may be a large part of it, but the
+    problem. An implementation may be part of it, but the
     validation and the description of the problem are essential.
 
 2.  Many students (and supervisors) focus on the technology but forget
@@ -269,7 +277,7 @@ it:
     validation mechanisms and focus on them.
 
 :guideline: In your work, be aware of artifacts and what the problem
-is. Do not design an artifact without considering its problem context
+is. Do not design an artifact without first considering its problem context
 and how artifact and context interact.
 
 
@@ -326,7 +334,7 @@ specific age group to wear a wristband?
 </table>
 
 
-:aside: Difference between design problems and knowledge questions. Adapted from <span class="citation" data-cites="Wieringa:2014">[@Wieringa:2014]</span>
+:aside: Difference between design problems and knowledge questions. Adapted from (Wieringa 2014).</span>
 
 
 Often, students (and supervisors) are not aware of the distinction and
@@ -342,9 +350,7 @@ They ask:
 > based on accelerometer data from a wristband?
 
 Isn't the second one also a good question that can lead us to a good
-solution? Consider again
-table [\[tab:design-vs-knowledge\]](#tab:design-vs-knowledge){reference-type="ref"
-reference="tab:design-vs-knowledge"}, and see what we wrote under
+solution? Consider again the table above and see what we wrote under
 knowledge question:
 
 -   We are not asking for knowledge about the world, but we ask
@@ -397,7 +403,7 @@ We can now describe a process to design an artifact:
 ---
 type: figure
 source: figures/design-cycle.png
-caption: "The design cycle. Adapted from [@Wieringa:2014]."
+caption: "The design cycle. Adapted from (Wieringa 2014)."
 ---
 
 The process is iterative, starting with the problem investigation.
