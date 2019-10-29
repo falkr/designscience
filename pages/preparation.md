@@ -1,4 +1,4 @@
-# Peparation
+# Preparation
 
 The following is an introduction into the concepts of design science.
 This implies that you need to learn the definitions of some
