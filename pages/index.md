@@ -12,15 +12,13 @@ concepts for students that start with their thesis, and serve as an introduction
 
 ## Registration
 
-Time: Monday, Sept. 23rd 2019 14:00 -- 17:00
+Time: Thursday, Sept. 10th 2020 08:15 -- 10:00
 
-Place: [Smia](http://bit.ly/2pmijTc)
-
-Since places are limited, please register for the seminar.
+Place: Zoom
 
 ---
 type: button
-url: https://forms.office.com/Pages/ResponsePage.aspx?id=cgahCS-CZ0SluluzdZZ8BSxiepoCd7lKk70IThBWqdJUMElaRTdRVjRKMFhVVE9aWEVQTVI2SElZTS4u
+url: https://forms.office.com/Pages/ResponsePage.aspx?id=cgahCS-CZ0SluluzdZZ8BSxiepoCd7lKk70IThBWqdJUNU1PNzNEMkZWUEVVSDAyQloxSzdLVUJaVi4u
 text: "Registration"
 ---
 
