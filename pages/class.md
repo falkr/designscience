@@ -151,6 +151,36 @@ type: lines
 lines: 4
 ---
 
+
+# Steps Forward
+
+This seminar is only the beginning of your work with your thesis.
+You got an introduction to some of the questions and taxonomy so that you are able to start asking the right questions and reading more on methodology. We propose the following steps forward:
+
+---
+type: figure
+source: figures/process.png
+caption: "Proposed steps forward from this seminar to your thesis."
+---
+
+1. Start thinking about your detailed thesis topic. 
+2. Start thinking about the method you need. (This is where we are now.)
+3. Apply what you learned about methodology to your specific topic, for instance by filling out the design science scheme from above.
+4. Read more about methodology, for instance with the books recommended below or other material. 
+5. While iterating through steps 3 and 4, also start planning for your thesis and write down the plan.
+
+Do all of this in collaboration with your supervisors, and show them your plan. They may have valuable input, but remember that planning for the thesis is your own responsibility.
+
+
+## Recommended Books
+
+There are two specific books that we recommend for further work.
+
+* Roel Wieringa: **Design Science Methodology**. (English). This book is accessible as PDF when you follow [this link to Springer via the campus network](https://doi.org/10.1007/978-3-662-43839-8).
+* Ketil Stølen: **Teknologivitenskap**. (Norwegian). This book is available from [Universitetsforlaget](https://www.universitetsforlaget.no/teknologivitenskap).
+
+
+
 # Final Tips
 
 -   Focus on the thesis on providing valuable knowledge, then design
